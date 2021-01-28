@@ -1,3 +1,5 @@
+/* use chrome dev tools to help with css */
+
 body {
   /*just for testing */
   background-color: darksalmon;
@@ -5,6 +7,14 @@ body {
 
 .special {
   border: 3px solid rgba(43, 85, 159, 0.557); /*have three different styles together */
+  /* use margin to center block */
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /*text-align centers text or any inline element */
+  /*flex box and css grid are super powerful flexbox froggy, css grid garden */
 }
 
 td.special,
@@ -12,4 +22,13 @@ li:hover {
   /* can target certain elements in a class */
   background-color: darkturquoise;
   border: 5px solid black;
+  /* display: inline; display changes the type of element */
+  display: inline-block; /*can have height and width */
 }
+/* box model from inside out - content - padding - border - outline - margin(space around box) */
+/* think about layout of page in boxes */
+/* use margin to center block */
+/* rules!!! */
+/* 1 - use colors sparingly */
+/* 2 - spacing - usually you need more space */
+/* 3 - steal from other websites */
