@@ -1,3 +1,15 @@
 body {
+  /*just for testing */
   background-color: darksalmon;
+}
+
+.special {
+  border: 3px solid rgba(43, 85, 159, 0.557); /*have three different styles together */
+}
+
+td.special,
+li:hover {
+  /* can target certain elements in a class */
+  background-color: darkturquoise;
+  border: 5px solid black;
 }
